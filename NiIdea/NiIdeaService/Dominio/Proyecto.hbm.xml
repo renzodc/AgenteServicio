@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NiIdeaService"
+                   namespace="NiIdeaService.Dominio"
+                   default-lazy="false">
+	<class name="Proyecto" table="t_Proyecto">
+		<id name="codigo_p" column="codigo_p">
+			<generator class="identity" />
+		</id>
+		<property name="nombre" column="nombre" />
+		<property name="fecha_ini" column="fecha_ini" />
+		<property name="fecha_fin" column="fecha_fin" />
+		<property name="responsable" column="responsable" />
+		<property name="observacion" column="observacion" />
+		<property name="codigo_c" column="codigo_c" />
+		<!-- <many-to-one name="codigo_c" column="codigo_c" /> -->
+		<property name="estado" column="estado" />
+		<!--
+    <property name="Correo" column="correo" />
+    <many-to-one name="Sede" column="sede" />
+    -->
+	</class>
+</hibernate-mapping>
+

@@ -1,0 +1,67 @@
+﻿@model ClienteWebNildea.Models.CotizacionVM
+
+@{
+    ViewBag.Title = "Agregar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Agregar</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>CotizacionVM</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.codigo_ct)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.codigo_ct)
+            @Html.ValidationMessageFor(model => model.codigo_ct)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.monto)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.monto)
+            @Html.ValidationMessageFor(model => model.monto)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.observacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.observacion)
+            @Html.ValidationMessageFor(model => model.observacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.fecha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.fecha)
+            @Html.ValidationMessageFor(model => model.fecha)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.codigo_proy)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.codigo_proy, new SelectList(Model.Proyectos,"codigo_p","nombre"))
+        </div>
+
+        <p>
+            <input type="submit" value="Agregar" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

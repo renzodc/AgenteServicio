@@ -1,0 +1,9 @@
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\bin\Debug\AgenteServicios.dll
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\bin\Debug\AgenteServicios.pdb
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\bin\Debug\NiIdeaService.dll
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\bin\Debug\NHibernate.dll
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\bin\Debug\Iesi.Collections.dll
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\bin\Debug\NiIdeaService.pdb
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\obj\Debug\AgenteServicios.csprojResolveAssemblyReference.cache
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\obj\Debug\AgenteServicios.dll
+C:\NiIdea_Proyecto\NiIdea\AgenteServicios\obj\Debug\AgenteServicios.pdb

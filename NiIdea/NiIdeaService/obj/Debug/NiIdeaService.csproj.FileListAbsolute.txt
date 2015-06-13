@@ -1,0 +1,7 @@
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.pdb
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\Iesi.Collections.dll
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NHibernate.dll
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
+C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache

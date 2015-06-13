@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NiIdeaService"
+                   namespace="NiIdeaService.Dominio"
+                   default-lazy="false">
+	<class name="Cliente" table="t_Cliente">
+		<id name="codigo_c" column="codigo_c">
+			<generator class="identity" />
+		</id>
+		<property name="nombre" column="nombre" />
+		<property name="direccion" column="direccion" />
+		<property name="telefono" column="telefono" />
+		<property name="doc_ide" column="doc_ide" />
+		<!--
+    <property name="Correo" column="correo" />
+    <many-to-one name="Sede" column="sede" />
+    -->
+	</class>
+</hibernate-mapping>
+

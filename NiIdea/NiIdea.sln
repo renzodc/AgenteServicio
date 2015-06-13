@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiIdeaService", "NiIdeaService\NiIdeaService.csproj", "{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenteServicios", "AgenteServicios\AgenteServicios.csproj", "{9268260B-8507-4E9A-B5C3-E080C3C8379D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWebNildea", "ClienteWebNildea\ClienteWebNildea.csproj", "{3A01A5FF-8032-4E2B-A8E1-26323B2B487E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9268260B-8507-4E9A-B5C3-E080C3C8379D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9268260B-8507-4E9A-B5C3-E080C3C8379D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9268260B-8507-4E9A-B5C3-E080C3C8379D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9268260B-8507-4E9A-B5C3-E080C3C8379D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A01A5FF-8032-4E2B-A8E1-26323B2B487E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A01A5FF-8032-4E2B-A8E1-26323B2B487E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A01A5FF-8032-4E2B-A8E1-26323B2B487E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A01A5FF-8032-4E2B-A8E1-26323B2B487E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

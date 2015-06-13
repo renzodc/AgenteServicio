@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NiIdeaService"
+                   namespace="NiIdeaService.Dominio"
+                   default-lazy="false">
+  <class name="Cotizacion" table="t_Cotizacion">
+    <id name="codigo_ct" column="codigo_ct">
+      <generator class="identity" />
+    </id>
+    <property name="monto" column="monto" />
+    <property name="observacion" column="observacion" />
+    <property name="fecha" column="fecha" />
+    <property name="codigo_p" column="codigo_p" />
+  </class>
+</hibernate-mapping>
+
